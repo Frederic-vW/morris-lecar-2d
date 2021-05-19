@@ -1,6 +1,6 @@
 # Morris-Lecar lattice model in *Python* and *julia*
 
-[![DOI](https://zenodo.org/badge/368721031.svg)](https://zenodo.org/badge/latestdoi/368721031)
+[![DOI](zenodo.4771551.svg)](https://zenodo.org/badge/latestdoi/368721031)
 
 This repo contains implementations of the Morris-Lecar model of cellular excitability on a 2D lattice.  
 The code is available in Python and Julia.  
