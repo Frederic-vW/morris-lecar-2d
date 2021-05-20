@@ -31,22 +31,20 @@ The Morris-Lecar model uses two variables to model membrane potential dynamics i
 Spatial coupling is introduced via diffusion of the voltage-like variable:
 
 <p align="left">
-<img width="800" src="images/ml_equations_971_151.png">
+<img width="800" src="images/ml_equations.png">
 </p>
 
 and the steady-state functions
 
 <p align="left">
-<img width="400" src="images/ml_functions_502_235.png">
+<img width="400" src="images/ml_functions.png">
 </p>
 
-<!--
-Noise is added via Itô-integration:
+Noise is added via stochastic integration of the variable $V$:
 
 <p align="left">
-<img width="280" src="images/fhn_sde_368_96_bg.png">
+<img width="280" src="images/izh_integration.png">
 </p>
--->
 
 The main function call running the simulation is: `ml2d(N, T, t0, dt, s, D, gL, VL, gCa, VCa, gK, VK, C, I, V0, V1, V2, V3, V4, phi, stim, blocks)`:  
 - `N`: lattice size `(N,N)`
