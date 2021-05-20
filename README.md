@@ -28,7 +28,7 @@ The code is available in Python and Julia.
 ## Morris-Lecar model
 
 The Morris-Lecar model uses two variables to model membrane potential dynamics in response to current injections, as modelled form experiments in the barnacle giant muscle fiber. The two variables represent voltage ($V$), and the fraction of open K<sup>+</sup> channels. 
-Spatial coupling is introduced via diffusion of the voltage-like variable:
+Spatial coupling is introduced via diffusion of the voltage variable ($D \Delta V$):
 
 <p align="left">
 <img width="800" src="images/ml_equations.png">
