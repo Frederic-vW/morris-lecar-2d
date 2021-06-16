@@ -43,7 +43,7 @@ and the steady-state functions
 Noise is added via stochastic integration of the variable $V$:
 
 <p align="left">
-<img width="280" src="images/ml_integration.png">
+<img width="270" src="images/ml_integration.png">
 </p>
 
 The main function call running the simulation is: `ml2d(N, T, t0, dt, s, D, gL, VL, gCa, VCa, gK, VK, C, I, V0, V1, V2, V3, V4, phi, stim, blocks)`:  
