@@ -37,7 +37,7 @@ Spatial coupling is introduced via diffusion of the voltage variable ($D \Delta 
 and the steady-state functions
 
 <p align="left">
-<img width="380" src="images/ml_functions.png">
+<img width="360" src="images/ml_functions.png">
 </p>
 
 Noise is added via stochastic integration of the variable $V$:
